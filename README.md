@@ -28,7 +28,7 @@ Os resultados demonstram que o modelo é capaz de distinguir nuances estilístic
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
-* Python 3.9 ou superior.
+* Python 3.10 ou superior.
 * Uma chave de API do Google AI Studio (Gemini).
 
 ### Instalação
@@ -45,7 +45,7 @@ Os resultados demonstram que o modelo é capaz de distinguir nuances estilístic
     ```
 
 3.  **Configure as Variáveis de Ambiente:**
-    Crie um arquivo `.env` na raiz do projeto e adicione sua chave:
+    Crie um arquivo `.env` na pasta /demo do projeto e adicione sua chave:
     ```env
     GEMINI_API_KEY="sua_chave_api_aqui"
     ```
