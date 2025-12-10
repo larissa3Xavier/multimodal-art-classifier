@@ -55,6 +55,7 @@ Para iniciar a interface web de demonstração:
 
 ```bash
 streamlit run app.py
+```
 
 👩‍💻 Autora
 Larissa Silva Xavier Rosa, Universidade Federal de Goiás (UFG).
