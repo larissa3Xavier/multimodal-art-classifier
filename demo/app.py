@@ -2,8 +2,6 @@ import os
 import json
 import streamlit as st
 from dotenv import load_dotenv
-# import google.generativeai as genai
-# from google.generativeai import types
 from google import genai
 from google.genai import types
 from PIL import Image
@@ -13,7 +11,8 @@ import io
 # --- 1. Configuração de Ambiente ---
 # Defina o caminho do seu arquivo.env aqui
 ENV_FILE_PATH = "./.env"
-DATASET_PATH = "../data/erro"
+# Defina o caminho do seu dataset aqui
+DATASET_PATH = "../data/erro" 
 
 # Tenta carregar as variáveis de ambiente
 load_dotenv(dotenv_path=ENV_FILE_PATH)
@@ -173,4 +172,5 @@ if uploaded_file:
                                 st.info("O modelo gerou a resposta direta sem trilha de pensamento visível.")
 
                 except Exception as e:
+
                     st.error(f"Ocorreu um erro na análise: {str(e)}")
